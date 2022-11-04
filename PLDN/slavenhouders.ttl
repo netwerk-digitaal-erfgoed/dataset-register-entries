@@ -3,7 +3,6 @@
 
 <https://data.pldn.nl/hack-a-lod-2022/slavenhouders>
   a schema:Dataset ;
-  schema:additionalType <dcm:Dataset> ;
   schema:creator <https://data.pldn.nl/hack-a-lod-2022> ;
   schema:dateModified "2022-11-04"^^schema:Date ;
   schema:datePublished "2022-11-04"^^schema:Date ;
