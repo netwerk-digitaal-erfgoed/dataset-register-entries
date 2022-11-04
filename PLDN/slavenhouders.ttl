@@ -29,8 +29,7 @@
   schema:inLanguage "iso639-1:en"^^xsd:string ;
   schema:name "slavenhouders"^^xsd:string ;
   schema:publisher <https://data.pldn.nl/hack-a-lod-2022> ;
-  schema:url <https://data.pldn.nl/hack-a-lod-2022/slavenhouders> .
-
+ 
 <https://data.pldn.nl/hack-a-lod-2022>
   a schema:Organization ;
   schema:name "hack-a-lod-2022"^^xsd:string .
