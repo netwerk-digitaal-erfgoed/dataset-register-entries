@@ -1,0 +1,57 @@
+
+   {
+    "@context": "https://schema.org/",
+    "@id": "https://data.pldn.nl/hack-a-lod-2022/slavenhouders",
+    "@type": "Dataset",
+    "additionalType": "dcm:Dataset",
+    "dateModified": "2022-11-04",
+    "datePublished": "2022-11-04",
+    "description": "Dataset slavenhouders of organization hack-a-lod-2022 on PLDN.",
+    "distribution": [
+     {
+      "@type": "DataDownload",
+      "encodingFormat": "application/trig",
+      "contentUrl": "https://data.pldn.nl/hack-a-lod-2022/slavenhouders/download.trig.gz"
+     },
+     {
+      "@type": "DataDownload",
+      "encodingFormat": "application/n-triples",
+      "contentUrl": "https://data.pldn.nl/hack-a-lod-2022/slavenhouders/download.nt.gz"
+     },
+     {
+      "@type": "DataDownload",
+      "encodingFormat": "application/n-quads",
+      "contentUrl": "https://data.pldn.nl/hack-a-lod-2022/slavenhouders/download.nq.gz"
+     },
+     {
+      "@type": "DataDownload",
+      "encodingFormat": "text/turtle",
+      "contentUrl": "https://data.pldn.nl/hack-a-lod-2022/slavenhouders/download.ttl.gz"
+     }
+    ],
+    "identifier": "https://data.pldn.nl/hack-a-lod-2022/slavenhouders",
+    "image": "https://data.pldn.nl/imgs/logos/logo-lg.svg?v=1",
+    "inLanguage": "iso639-1:en",
+    "includedInDataCatalog": {
+     "@type": "DataCatalog",
+     "@id": "https://data.pldn.nl",
+     "name": "PLDN"
+    },
+    "license": {
+     "@type": "CreativeWork",
+     "name": "CC-BY-SA",
+     "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "name": "slavenhouders",
+    "publisher": {
+     "@type": "Organization",
+     "@id": "https://data.pldn.nl/hack-a-lod-2022",
+     "name": "hack-a-lod-2022"
+    },
+    "creator": {
+     "@type": "Organization",
+     "@id": "https://data.pldn.nl/hack-a-lod-2022",
+     "name": "hack-a-lod-2022"
+    },
+    "url": "https://data.pldn.nl/hack-a-lod-2022/slavenhouders"
+   }
