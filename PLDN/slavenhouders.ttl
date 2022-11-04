@@ -1,0 +1,42 @@
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.pldn.nl/hack-a-lod-2022/slavenhouders>
+  a schema:Dataset ;
+  schema:additionalType <dcm:Dataset> ;
+  schema:creator <https://data.pldn.nl/hack-a-lod-2022> ;
+  schema:dateModified "2022-11-04"^^schema:Date ;
+  schema:datePublished "2022-11-04"^^schema:Date ;
+  schema:description "Dataset slavenhouders of organization hack-a-lod-2022 on PLDN."^^xsd:string ;
+  schema:distribution [
+    a schema:DataDownload ;
+    schema:contentUrl <https://data.pldn.nl/hack-a-lod-2022/slavenhouders/download.trig.gz> ;
+    schema:encodingFormat "application/trig"^^xsd:string
+  ], [
+    a schema:DataDownload ;
+    schema:contentUrl <https://data.pldn.nl/hack-a-lod-2022/slavenhouders/download.nt.gz> ;
+    schema:encodingFormat "application/n-triples"^^xsd:string
+  ], [
+    a schema:DataDownload ;
+    schema:contentUrl <https://data.pldn.nl/hack-a-lod-2022/slavenhouders/download.nq.gz> ;
+    schema:encodingFormat "application/n-quads"^^xsd:string
+  ], [
+    a schema:DataDownload ;
+    schema:contentUrl <https://data.pldn.nl/hack-a-lod-2022/slavenhouders/download.ttl.gz> ;
+    schema:encodingFormat "text/turtle"^^xsd:string
+  ] ;
+  schema:identifier "https://data.pldn.nl/hack-a-lod-2022/slavenhouders"^^xsd:string ;
+  schema:image <https://data.pldn.nl/imgs/logos/logo-lg.svg?v=1> ;
+  schema:inLanguage "iso639-1:en"^^xsd:string ;
+  schema:includedInDataCatalog <https://data.pldn.nl> ;
+  schema:name "slavenhouders"^^xsd:string ;
+  schema:publisher <https://data.pldn.nl/hack-a-lod-2022> ;
+  schema:url <https://data.pldn.nl/hack-a-lod-2022/slavenhouders> .
+
+<https://data.pldn.nl/hack-a-lod-2022>
+  a schema:Organization ;
+  schema:name "hack-a-lod-2022"^^xsd:string .
+
+<https://data.pldn.nl>
+  a schema:DataCatalog ;
+  schema:name "PLDN"^^xsd:string .
