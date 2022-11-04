@@ -27,7 +27,6 @@
   schema:identifier "https://data.pldn.nl/hack-a-lod-2022/slavenhouders"^^xsd:string ;
   schema:image <https://data.pldn.nl/imgs/logos/logo-lg.svg?v=1> ;
   schema:inLanguage "iso639-1:en"^^xsd:string ;
-  schema:includedInDataCatalog <https://data.pldn.nl> ;
   schema:name "slavenhouders"^^xsd:string ;
   schema:publisher <https://data.pldn.nl/hack-a-lod-2022> ;
   schema:url <https://data.pldn.nl/hack-a-lod-2022/slavenhouders> .
@@ -35,7 +34,3 @@
 <https://data.pldn.nl/hack-a-lod-2022>
   a schema:Organization ;
   schema:name "hack-a-lod-2022"^^xsd:string .
-
-<https://data.pldn.nl>
-  a schema:DataCatalog ;
-  schema:name "PLDN"^^xsd:string .
