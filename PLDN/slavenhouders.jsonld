@@ -1,6 +1,5 @@
-
-   {
-    "@context": "https://schema.org/",
+{
+	"@context": "https://schema.org",
     "@id": "https://data.pldn.nl/hack-a-lod-2022/slavenhouders",
     "@type": "Dataset",
     "additionalType": "dcm:Dataset",
@@ -40,7 +39,7 @@
     "license": {
      "@type": "CreativeWork",
      "name": "CC-BY-SA",
-     "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+     "@id": "http://creativecommons.org/licenses/by-sa/3.0/"
     },
     "name": "slavenhouders",
     "publisher": {
