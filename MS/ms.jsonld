@@ -1,0 +1,64 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "Dataset",
+	"@id": "https://limburgserfgoednet.nl/missiemuseumsteyl",
+	"identifier": "https://limburgserfgoednet.nl/missiemuseumsteyl",
+	"name": "Selectie Limburgs Erfgoednet",
+	"license": "http://standaarden.overheid.nl/owms/terms/geslotenlicentie",
+	"publisher": {
+		"@type": "Organization",
+		"@id": "Missiemuseum Steyl",
+		"name": "Missiemuseum Steyl",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": "Nina van der Werf",
+			"email": "nina@missiemuseumsteyl.nl"
+		}
+	},
+	"description": "Selectie uit de collectie van het Missiemuseum, gepubliceerd op het Limburgs Erfgoednet. De selectie bevat diverse objecten; van taxidermie tot etnografica en objecten met betrekking tot de geschiedenis van Steyl en de Societas Verbi Divini (SVD).",
+	"inLanguage": "nl",
+	"creator": {
+		"@type": "Organization",
+		"@id": "https://www.missiemuseum.nl/nl",
+		"name": "Missiemuseum ",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": "Nina van der Werf",
+			"email": "nina@missiemuseumsteyl.nl"
+		}
+	},
+	"dateCreated": "2022-11-24T11:02",
+	"datePublished": "2022-11-24T11:04",
+	"version": "0.0",
+	"keywords": [
+		"Azië",
+		"China",
+		"Christendom",
+		"Zoogdieren",
+		"Vogels",
+		"Sculptuur",
+		"Vissen",
+		"Gebruiksvoorwerpen"
+	],
+	"genre": [
+		"taxidermie",
+		"etnografica",
+		"religie",
+		"cultuur"
+	],
+	"spatialCoverage": "Steyl - Wereldwijd",
+	"temporalCoverage": "1875 - heden",
+	"includedInDataCatalog": "Collectie Missiemuseum Steyl",
+	"distribution": [
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://limburgserfgoednet.nl/missiemuseumsteyl",
+			"encodingFormat": [
+				"text/html",
+				"application/pdf"
+			],
+			"license": "http://standaarden.overheid.nl/owms/terms/geslotenlicentie",
+			"inLanguage": "nl"
+		}
+	]
+}
