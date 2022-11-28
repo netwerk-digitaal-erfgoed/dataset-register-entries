@@ -7,7 +7,7 @@
 	"license": "http://standaarden.overheid.nl/owms/terms/geslotenlicentie",
 	"publisher": {
 		"@type": "Organization",
-		"@id": "Missiemuseum Steyl",
+		"@id": "https://www.missiemuseum.nl/nl",
 		"name": "Missiemuseum Steyl",
 		"contactPoint": {
 			"@type": "ContactPoint",
@@ -20,7 +20,7 @@
 	"creator": {
 		"@type": "Organization",
 		"@id": "https://www.missiemuseum.nl/nl",
-		"name": "Missiemuseum ",
+		"name":  "Missiemuseum Steyl",
 		"contactPoint": {
 			"@type": "ContactPoint",
 			"name": "Nina van der Werf",
@@ -48,7 +48,6 @@
 	],
 	"spatialCoverage": "Steyl - Wereldwijd",
 	"temporalCoverage": "1875 - heden",
-	"includedInDataCatalog": "Collectie Missiemuseum Steyl",
 	"distribution": [
 		{
 			"@type": "DataDownload",
