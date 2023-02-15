@@ -54,24 +54,12 @@
 @prefix prism21: <http://prismstandard.org/namespaces/basic/2.1/> .
 @prefix po:    <http://purl.org/ontology/po/> .
 
-# from https://data.bibliotheken.nl/doc/dataset/brinkman.ttl
-# and https://data.bibliotheken.nl/doc/thes/p075301482.ttl
-# commented schema:Dataset out from schema:mainEntityOfPage
-# added link to datastory
-
 <id/dataset/rise-centsprenten>
         a                             schema:Dataset ;
         schema:dateCreated            "2019-03-12"^^xsd:date ;
         schema:dateModified           "2019-06-06"^^xsd:date ;
         schema:datePublished          "2019-03-12"^^xsd:date ;
         schema:description            "Centsprenten, een goedkope vorm van massadrukwerk uit de achttiende en negentiende eeuw. Dataset gemaakt voor het Europeana 'Rise of Literacy'-project."@nl , "Centsprenten, a dataset defined for the Europeana Rise of Literacy project."@en ;
-        schema:distribution           [ a                      schema:DataDownload ;
-                                        schema:contentUrl      <sparql> ;
-                                        schema:description     "Entiteiten beschreven door deze dataset zijn op te vragen met SELECT ?s WHERE { ?s schema:isPartOf \"Centsprenten van de Koninklijke Bibliotheek\"@nl . }"@nl ;
-                                        schema:encodingFormat  "application/sparql-query" ;
-                                        schema:name            "SPARQL-endpoint voor Centsprenten"@nl ;
-                                        schema:workExample     <sparql?default-graph-uri=&query=SELECT+%3Fs+WHERE+%7B+%3Fs+schema%3AisPartOf+%22Centsprenten+van+de+Koninklijke+Bibliotheek%22%40nl+.+%7D&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+>
-                                      ] ;
         schema:distribution           [ a                      schema:DataDownload ;
                                         schema:contentSize     "432K" ;
                                         schema:contentUrl      <files/centsprenten_20201016.ttl.gz> ;
@@ -81,10 +69,16 @@
                                         schema:license         <http://creativecommons.org/publicdomain/zero/1.0/> ;
                                         schema:name            "Datadump Centsprenten"@nl
                                       ] ;
+        schema:distribution           [ a                      schema:DataDownload ;
+                                        schema:contentUrl      <sparql> ;
+                                        schema:description     "Entiteiten beschreven door deze dataset zijn op te vragen met SELECT ?s WHERE { ?s schema:isPartOf \"Centsprenten van de Koninklijke Bibliotheek\"@nl . }"@nl ;
+                                        schema:encodingFormat  "application/sparql-query" ;
+                                        schema:name            "SPARQL-endpoint voor Centsprenten"@nl ;
+                                        schema:workExample     <sparql?default-graph-uri=&query=SELECT+%3Fs+WHERE+%7B+%3Fs+schema%3AisPartOf+%22Centsprenten+van+de+Koninklijke+Bibliotheek%22%40nl+.+%7D&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+>
+                                      ] ;
         schema:identifier             <id/dataset/rise-centsprenten> ;
         schema:includedInDataCatalog  <id/datacatalog> ;
         schema:license                <http://creativecommons.org/publicdomain/zero/1.0/> ;
-		schema:mainEntityOfPage       <https://demo.netwerkdigitaalerfgoed.nl/stories/hackalod/kb_productie/index.html> ;
         schema:mainEntityOfPage       <doc/dataset/rise-centsprenten> ;
         schema:mainEntityOfPage       [ a                    schema:WebPage ; # , schema:Dataset ;
                                         schema:dateModified  "2021-02-09"^^xsd:date ;
