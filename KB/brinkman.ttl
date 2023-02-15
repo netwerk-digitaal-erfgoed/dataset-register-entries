@@ -61,18 +61,16 @@
 
 <id/dataset/brinkman>
         a                             schema:Dataset ;
-        schema:acquireLicensePage     <mailto:dataservices@kb.nl> ;
-        schema:dateModified           "2021-05-20"^^xsd:date ;
+        schema:dateModified           "2021-10-11"^^xsd:date ;
         schema:datePublished          "2017-05-14"^^xsd:date ;
         schema:description            "De Brinkman is een thesaurus waarmee de depotcollectie en de catalogus van deze collectie, de Nederlandse Bibliografie online (ORS), op onderwerp zijn ontsloten. Deze dataset bevat ook een alignment met de Gemeenschappelijke Thesaurus Audiovisuele Archieven van het Nederlands Instituut voor Beeld en Geluid. Zie http://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis voor meer informatie."@nl ;
         schema:distribution           [ a                      schema:DataDownload ;
-                                        schema:contentSize     "1.1M" ;
-                                        schema:contentUrl      <files/brinkman_20210520.rdf.gz> ;
+                                        schema:contentSize     "1077771" ;
+                                        schema:contentUrl      <files/brinkman_20211011.rdf.gz> ;
                                         schema:dateCreated     "2021-05-20"^^xsd:date ;
-                                        schema:datePublished   "2021-05-20"^^xsd:date ;
                                         schema:description     "Datadump Brinkman trefwoordenthesaurus. Bevat ook een alignment met de Gemeenschappelijke Thesaurus Audiovisuele Archieven van het Nederlands Instituut voor Beeld en Geluid."@nl ;
                                         schema:encodingFormat  "application/rdf+xml" ;
-                                        schema:license         <http://opendatacommons.org/licenses/by/1.0/> ;
+                                        schema:license         <http://creativecommons.org/publicdomain/zero/1.0/> ;
                                         schema:name            "Datadump Brinkman trefwoordenthesaurus"@nl
                                       ] ;
         schema:distribution           [ a                      schema:DataDownload ;
@@ -84,11 +82,10 @@
                                       ] ;
         schema:identifier             <id/dataset/brinkman> ;
         schema:includedInDataCatalog  <id/datacatalog> ;
-        schema:license                <http://opendatacommons.org/licenses/by/1.0/> ;
-		schema:mainEntityOfPage       <https://demo.netwerkdigitaalerfgoed.nl/stories/hackalod/kb_productie/index.html> ;
+        schema:license                <http://creativecommons.org/publicdomain/zero/1.0/> ;
         schema:mainEntityOfPage       <doc/dataset/brinkman> ;
-        schema:mainEntityOfPage       [ a                    schema:WebPage ; # , schema:Dataset ;
-                                        schema:dateModified  "2021-05-20"^^xsd:date ;
+        schema:mainEntityOfPage       [ a                    schema:WebPage ;  #, schema:Dataset ;
+                                        schema:dateModified  "2021-10-11"^^xsd:date ;
                                         schema:license       <http://creativecommons.org/publicdomain/zero/1.0/> ;
                                         schema:mainEntity    <id/dataset/brinkman> ;
                                         schema:name          "Metadata beschrijving dataset Brinkman trefwoordenthesaurus"@nl ;
@@ -98,7 +95,6 @@
         schema:provider               <id/thes/p075301482> ;
         schema:publisher              <id/thes/p075301482> ;
         schema:subjectOf              <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-        schema:usageInfo              "The preferred form of attribution is: \"Contains OCLC <a href=\"http://www.worldcat.org/\">WorldCat</a> information made available under the <a href=\"http://opendatacommons.org/licenses/by/1.0/\">ODC Attribution license</a>. The OCLC cooperative requests that uses of WorldCat derived data contained in this work conform with the <a href=\"https://www.oclc.org/worldcat/community/record-use/policy/community-norms.en.html\">WorldCat Community Norms</a>.\" Special cases: In circumstances where providing the full attribution statement above is not technically feasible, the use of canonical WorldCat URIs is adequate to satisfy Section 4.3 of the <a href=\"http://opendatacommons.org/licenses/by/1.0/\">ODC Attribution license</a>."@en ;
         schema:workExample            <doc/thes/p075614812> .
 		
 <id/thes/p075301482>  a          schema:Organization ;
