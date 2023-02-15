@@ -54,15 +54,9 @@
 @prefix prism21: <http://prismstandard.org/namespaces/basic/2.1/> .
 @prefix po:    <http://purl.org/ontology/po/> .
 
-# from https://data.bibliotheken.nl/doc/dataset/brinkman.ttl
-# and https://data.bibliotheken.nl/doc/thes/p075301482.ttl
-# commented schema:Dataset out from schema:mainEntityOfPage
-# added link to datastory
-
 <id/dataset/persons>  a               schema:Dataset ;
-        schema:acquireLicensePage     <mailto:dataservices@kb.nl> ;
         schema:creator                <id/thes/p075301482> ;
-        schema:dateModified           "2021-09-07"^^xsd:date ;
+        schema:dateModified           "2022-09-26"^^xsd:date ;
         schema:datePublished          "2017-05-12"^^xsd:date ;
         schema:description            "In de Nederlandse Thesaurus van Auteursnamen (NTA), ook wel de Persoonsnamenthesaurus genoemd, worden naams- en andere persoonsgegevens van auteurs opgeslagen, zodat onderscheid gemaakt kan worden tussen auteurs met dezelfde naam. Deze dataset presenteert de opgenomen namen als persoon. Zie http://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis voor meer informatie."@nl ;
         schema:distribution           [ a                      schema:DataDownload ;
@@ -73,21 +67,20 @@
                                         schema:workExample     <sparql?default-graph-uri=&query=select+*+where+%7B+%3Fs+schema%3AmainEntityOfPage%2Fschema%3AisPartOf+%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fdataset%2Fpersons%3E+.+%7D+limit+10>
                                       ] ;
         schema:distribution           [ a                      schema:DataDownload ;
-                                        schema:contentSize     "236662484" ;
-                                        schema:contentUrl      <files/nta_20210907.rdf.gz> ;
-                                        schema:dateCreated     "2021-09-07"^^xsd:date ;
+                                        schema:contentSize     "241038599" ;
+                                        schema:contentUrl      <files/nta_20220926.rdf.gz> ;
+                                        schema:dateCreated     "2022-09-26"^^xsd:date ;
                                         schema:description     "Datadump personen uit de NTA; bevat niet de alignments met Dbpedia en Wikidata."@nl ;
                                         schema:encodingFormat  "application/rdf+xml" ;
-                                        schema:license         <http://opendatacommons.org/licenses/by/1.0/> ;
+                                        schema:license         <http://creativecommons.org/publicdomain/zero/1.0/> ;
                                         schema:name            "Datadump personen uit de NTA"@nl
                                       ] ;
         schema:identifier             <id/dataset/persons> ;
         schema:includedInDataCatalog  <id/datacatalog> ;
-        schema:license                <http://opendatacommons.org/licenses/by/1.0/> ;
-		schema:mainEntityOfPage       <https://demo.netwerkdigitaalerfgoed.nl/stories/hackalod/kb_productie/index.html> ;
+        schema:license                <http://creativecommons.org/publicdomain/zero/1.0/> ;
         schema:mainEntityOfPage       <doc/dataset/persons> ;
         schema:mainEntityOfPage       [ a                    schema:WebPage ; # , schema:Dataset ;
-                                        schema:dateModified  "2021-09-07"^^xsd:date ;
+                                        schema:dateModified  "2022-09-26"^^xsd:date ;
                                         schema:license       <http://creativecommons.org/publicdomain/zero/1.0/> ;
                                         schema:mainEntity    <id/dataset/persons> ;
                                         schema:name          "Metadata beschrijving dataset"@nl ;
@@ -96,8 +89,8 @@
         schema:name                   "Personen uit de Nederlandse Thesaurus van Auteursnamen (NTA)"@nl ;
         schema:publisher              <id/thes/p075301482> ;
         schema:subjectOf              <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
-        schema:usageInfo              "The preferred form of attribution is: \"Contains OCLC <a href=\"http://www.worldcat.org/\">WorldCat</a> information made available under the <a href=\"http://opendatacommons.org/licenses/by/1.0/\">ODC Attribution license</a>. The OCLC cooperative requests that uses of WorldCat derived data contained in this work conform with the <a href=\"https://www.oclc.org/worldcat/community/record-use/policy/community-norms.en.html\">WorldCat Community Norms</a>.\" Special cases: In circumstances where providing the full attribution statement above is not technically feasible, the use of canonical WorldCat URIs is adequate to satisfy Section 4.3 of the <a href=\"http://opendatacommons.org/licenses/by/1.0/\">ODC Attribution license</a>."@en ;
         schema:workExample            <doc/thes/p068842368> .
+
 		
 <id/thes/p075301482>  a          schema:Organization ;
         rdfs:seeAlso             <id/thes/p143859463> ;
