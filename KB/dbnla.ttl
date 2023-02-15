@@ -54,15 +54,17 @@
 @prefix prism21: <http://prismstandard.org/namespaces/basic/2.1/> .
 @prefix po:    <http://purl.org/ontology/po/> .
 
-# from https://data.bibliotheken.nl/doc/dataset/brinkman.ttl
-# and https://data.bibliotheken.nl/doc/thes/p075301482.ttl
-# commented schema:Dataset out from schema:mainEntityOfPage
-# added link to datastory
-
 <id/dataset/dbnla>  a                 schema:Dataset ;
         schema:dateModified           "2021-02-08"^^xsd:date ;
         schema:datePublished          "2018-11-15"^^xsd:date ;
         schema:description            "Thesaurus auteurs van digitale bibliotheek voor de Nederlandse letteren (DBNL)."@nl ;
+        schema:distribution           [ a                      schema:DataDownload ;
+                                        schema:contentUrl      <sparql> ;
+                                        schema:description     "Entiteiten beschreven door deze dataset zijn op te vragen met 'select * where { ?s schema:mainEntityOfPage/schema:isPartOf &lt;http://data.bibliotheken.nl/id/dataset/dbnla&gt; . }' "@nl ;
+                                        schema:encodingFormat  "application/sparql-query" ;
+                                        schema:name            "SPARQL-endpoint voor Thesaurus Auteurs DBNL"@nl ;
+                                        schema:workExample     <sparql?default-graph-uri=&query=select+*+where+%7B+%3Fs+schema%3AmainEntityOfPage%2Fschema%3AisPartOf+%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fdataset%2Fdbnla%3E+.+%7D+limit+10>
+                                      ] ;
         schema:distribution           [ a                      schema:DataDownload ;
                                         schema:contentSize     "1449989" ;
                                         schema:contentUrl      <files/dbnla_20210208.ttl.gz> ;
@@ -72,17 +74,9 @@
                                         schema:license         <http://creativecommons.org/publicdomain/zero/1.0/> ;
                                         schema:name            "Datadump Thesaurus Auteurs DBNL"@nl
                                       ] ;
-        schema:distribution           [ a                      schema:DataDownload ;
-                                        schema:contentUrl      <sparql> ;
-                                        schema:description     "Entiteiten beschreven door deze dataset zijn op te vragen met 'select * where { ?s schema:mainEntityOfPage/schema:isPartOf &lt;http://data.bibliotheken.nl/id/dataset/dbnla&gt; . }' "@nl ;
-                                        schema:encodingFormat  "application/sparql-query" ;
-                                        schema:name            "SPARQL-endpoint voor Thesaurus Auteurs DBNL"@nl ;
-                                        schema:workExample     <sparql?default-graph-uri=&query=select+*+where+%7B+%3Fs+schema%3AmainEntityOfPage%2Fschema%3AisPartOf+%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fdataset%2Fdbnla%3E+.+%7D+limit+10>
-                                      ] ;
         schema:identifier             <id/dataset/dbnla> ;
         schema:includedInDataCatalog  <id/datacatalog> ;
         schema:license                <http://creativecommons.org/publicdomain/zero/1.0/> ;
-		schema:mainEntityOfPage       <https://demo.netwerkdigitaalerfgoed.nl/stories/hackalod/kb_productie/index.html> ;
         schema:mainEntityOfPage       <doc/dataset/dbnla> ;
         schema:mainEntityOfPage       [ a                    schema:WebPage ; # , schema:Dataset ;
                                         schema:dateModified  "2021-02-08"^^xsd:date ;
