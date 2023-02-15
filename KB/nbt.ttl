@@ -61,7 +61,7 @@
 
 <id/dataset/nbt>  a                   schema:Dataset ;
         schema:acquireLicensePage     <mailto:dataservices@kb.nl> ;
-        schema:dateModified           "2021-06-01"^^xsd:date ;
+        schema:dateModified           "2021-10-11"^^xsd:date ;
         schema:datePublished          "2017-12-20"^^xsd:date ;
         schema:description            "Nederlandse Bibliografie Totaal (NBT) bevat publicaties die in Nederland, over Nederland of in de Nederlandse taal zijn verschenen"@nl ;
         schema:distribution           [ a                      schema:DataDownload ;
@@ -73,8 +73,8 @@
                                       ] ;
         schema:distribution           [ a                      schema:DataDownload ;
                                         schema:contentSize     "259099334" ;
-                                        schema:contentUrl      <files/nbt_20210608.ttl.gz> ;
-                                        schema:datePublished   "2021-06-08"^^xsd:date ;
+                                        schema:contentUrl      <files/nbt_20211011.ttl.gz>;
+                                        schema:datePublished   "2021-10-11"^^xsd:date ;
                                         schema:description     "Datadump NBT"@nl ;
                                         schema:encodingFormat  "text/turtle" ;
                                         schema:license         <http://opendatacommons.org/licenses/by/1.0/> ;
