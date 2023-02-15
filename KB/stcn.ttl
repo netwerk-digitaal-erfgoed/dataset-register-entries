@@ -54,51 +54,45 @@
 @prefix prism21: <http://prismstandard.org/namespaces/basic/2.1/> .
 @prefix po:    <http://purl.org/ontology/po/> .
 
-# from https://data.bibliotheken.nl/doc/dataset/brinkman.ttl
-# and https://data.bibliotheken.nl/doc/thes/p075301482.ttl
-# commented schema:Dataset out from schema:mainEntityOfPage
-# added link to datastory
-
 <id/dataset/stcn>  a                  schema:Dataset ;
         schema:creator                <id/thes/p075301482> ;
         schema:dateCreated            "2019-03-26"^^xsd:date ;
-        schema:dateModified           "2019-11-30"^^xsd:date ;
+        schema:dateModified           "2022-04-29"^^xsd:date ;
         schema:datePublished          "2019-03-26"^^xsd:date ;
         schema:description            "Expert descriptions of books printed in the Netherlands between 1473 and 1801 in more than 210.000 editions in 550.000 copies. Contains descriptions of books in the collections of many libraries in the Netherlands and various libraries abroad. All books are described book in hand. Descriptions contain information about authors, titles, imprints, size, collation formula, subject keywords and typographical features. Every edition is distinguished by the STCN fingerprint. Newspapers and ambassadors’ letters are excluded."@en ;
         schema:distribution           [ a                      schema:DataDownload ;
-                                        schema:contentSize     "73106831" ;
-                                        schema:contentUrl      <files/stcn_20201105.ttl.gz> ;
-                                        schema:dateCreated     "2020-11-05"^^xsd:date ;
-                                        schema:datePublished   "2020-11-05"^^xsd:date ;
+                                        schema:contentUrl      <sparql> ;
+                                        schema:description     "Entiteiten beschreven door deze dataset zijn op te vragen met 'select * where { ?s schema:mainEntityOfPage/schema:isPartOf &lt;http://data.bibliotheken.nl/id/dataset/stcn&gt; . }' "@nl ;
+                                        schema:encodingFormat  "application/sparql-query" ;
+                                        schema:name            "SPARQL-endpoint voor de STCN als RDF"@nl ;
+                                        schema:workExample     <sparql?default-graph-uri=&query=select+*+where+%7B+%3Fs+schema%3AmainEntityOfPage%2Fschema%3AisPartOf+%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fdataset%2Fstcn%3E+.+%7D>
+                                      ] ;
+        schema:distribution           [ a                      schema:DataDownload ;
+                                        schema:contentSize     "72868201" ;
+                                        schema:contentUrl      <files/stcn_20220429.ttl.gz> ;
+                                        schema:dateCreated     "2022-04-29"^^xsd:date ;
+                                        schema:datePublished   "2022-04-29"^^xsd:date ;
                                         schema:description     "Datadump STCN"@nl ;
                                         schema:encodingFormat  "text/turtle" ;
                                         schema:license         <http://creativecommons.org/publicdomain/zero/1.0/> ;
                                         schema:name            "Datadump STCN"@nl
                                       ] ;
-        schema:distribution           [ a                      schema:DataDownload ;
-                                        schema:contentUrl      <sparql> ;
-                                        schema:description     "Entiteiten beschreven door deze dataset zijn op te vragen met 'select * where { ?s foaf:isPrimaryTopicOf/void:inDataset &lt;http://data.bibliotheken.nl/id/dataset/stcn&gt; . }' "@nl ;
-                                        schema:encodingFormat  "application/sparql-query" ;
-                                        schema:name            "SPARQL-endpoint voor de STCN als RDF"@nl ;
-                                        schema:workExample     <sparql?default-graph-uri=&query=select+*+where+%7B+%3Fs+foaf%3AisPrimaryTopicOf%2Fvoid%3AinDataset+%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fdataset%2Fstcn%3E+.+%7D>
-                                      ] ;
+        schema:hasPart                <id/dataset/stcn/printers> , <id/dataset/stcn/thes> ;
         schema:identifier             <id/dataset/stcn> ;
         schema:includedInDataCatalog  <id/datacatalog> ;
         schema:license                <http://creativecommons.org/publicdomain/zero/1.0/> ;
-		schema:mainEntityOfPage       <https://demo.netwerkdigitaalerfgoed.nl/stories/hackalod/kb_productie/index.html> ;
-        schema:mainEntityOfPage       <doc/dataset/stcn> ;
         schema:mainEntityOfPage       [ a                    schema:WebPage ; # , schema:Dataset ;
-                                        schema:dateModified  "2020-11-30"^^xsd:date ;
+                                        schema:dateModified  "2022-04-29"^^xsd:date ;
                                         schema:license       <http://creativecommons.org/publicdomain/zero/1.0/> ;
                                         schema:mainEntity    <id/dataset/stcn> ;
                                         schema:name          "Metadata beschrijving dataset STCN"@nl ;
-                                        owl:sameAs           <doc/dataset/kbcode>
+                                        owl:sameAs           <doc/dataset/stcn>
                                       ] ;
         schema:name                   "Short-Title Catalogue Netherlands (STCN)"@nl , "Short-Title Catalogue Netherlands (STCN)"@en ;
         schema:publisher              <id/thes/p075301482> ;
         schema:subjectOf              <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> , <https://www.kb.nl/organisatie/voor-uitgevers/informatie-over-de-nederlandse-bibliografie> , <http://www.stcn.nl/> ;
         schema:workExample            <id/nbt/p192741446> .
-		
+
 <id/thes/p075301482>  a          schema:Organization ;
         rdfs:seeAlso             <id/thes/p143859463> ;
         schema:alternateName     "Royal Library (The Hague)" , "KB | Nationale Bibliotheek (Den Haag)" , "KB (Den Haag)" ;
