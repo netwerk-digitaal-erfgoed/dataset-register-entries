@@ -54,11 +54,6 @@
 @prefix prism21: <http://prismstandard.org/namespaces/basic/2.1/> .
 @prefix po:    <http://purl.org/ontology/po/> .
 
-# from https://data.bibliotheken.nl/doc/dataset/brinkman.ttl
-# and https://data.bibliotheken.nl/doc/thes/p075301482.ttl
-# commented schema:Dataset out from schema:mainEntityOfPage
-# added link to datastory
-
 <id/dataset/corps>  a                 schema:Dataset ;
         schema:dateCreated            "2017-05-14"^^xsd:date ;
         schema:dateModified           "2020-12-15"^^xsd:date ;
@@ -84,7 +79,6 @@
         schema:identifier             <id/dataset/corps> ;
         schema:includedInDataCatalog  <id/datacatalog> ;
         schema:license                <http://creativecommons.org/publicdomain/zero/1.0/> ;
-		schema:mainEntityOfPage       <https://demo.netwerkdigitaalerfgoed.nl/stories/hackalod/kb_productie/index.html> ;
         schema:mainEntityOfPage       <doc/dataset/corps> ;
         schema:mainEntityOfPage       [ a                    schema:WebPage ; # , schema:Dataset ;
                                         schema:dateModified  "2020-12-15"^^xsd:date ;
@@ -98,6 +92,7 @@
         schema:publisher              <id/thes/p075301482> ;
         schema:subjectOf              <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> ;
         schema:workExample            <doc/thes/p075301482> .
+
 		
 <id/thes/p075301482>  a          schema:Organization ;
         rdfs:seeAlso             <id/thes/p143859463> ;
