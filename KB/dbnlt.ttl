@@ -54,11 +54,6 @@
 @prefix prism21: <http://prismstandard.org/namespaces/basic/2.1/> .
 @prefix po:    <http://purl.org/ontology/po/> .
 
-# from https://data.bibliotheken.nl/doc/dataset/dbnlt.ttl
-# and https://data.bibliotheken.nl/doc/thes/p075301482.ttl
-# commented schema:Dataset out from schema:mainEntityOfPage
-# added link to datastory
-
 <id/dataset/dbnlt>  a                 schema:Dataset ;
         schema:dateModified           "2021-03-18"^^xsd:date ;
         schema:datePublished          "2018-11-15"^^xsd:date ;
@@ -83,7 +78,6 @@
         schema:identifier             <id/dataset/dbnlt> ;
         schema:includedInDataCatalog  <id/datacatalog> ;
         schema:license                <http://creativecommons.org/publicdomain/zero/1.0/> ;
-		schema:mainEntityOfPage       <https://demo.netwerkdigitaalerfgoed.nl/stories/hackalod/kb_productie/index.html> ;
         schema:mainEntityOfPage       <doc/dataset/dbnlt> ;
         schema:mainEntityOfPage       [ a                    schema:WebPage ; # , schema:Dataset ;
                                         schema:dateModified  "2021-03-18"^^xsd:date ;
@@ -92,7 +86,7 @@
                                         schema:name          "Metadata beschrijving dataset Titels DBNL"@nl ;
                                         owl:sameAs           <doc/dataset/dbnlt>
                                       ] ;
-        schema:name                   "Titels DBNL"@nl , "Titels DBNL"@en;
+        schema:name                   "Titels DBNL"@nl ;
         schema:provider               <id/thes/p075301482> ;
         schema:publisher              <id/thes/p075301482> ;
         schema:subjectOf              <https://www.kb.nl/bronnen-zoekwijzers/dataservices-en-apis> , <https://www.dbnl.org/overdbnl/verzoeken_inleiding.php> ;
