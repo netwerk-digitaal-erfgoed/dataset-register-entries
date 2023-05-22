@@ -1,0 +1,33 @@
+{
+   "@context": "http://schema.org/",
+   "@type": "Dataset",
+   "@id": "https://collectiedata.hetnieuweinstituut.nl/",
+   "identifier": "https://collectiedata.hetnieuweinstituut.nl/",
+   "name": "Dataset collectiedata Nieuwe Instituut",
+   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "publisher": {
+       "@type": "Organization",
+       "@id": "https://nieuweinstituut.nl/",
+       "name": "Nieuwe Instituut"
+   },
+   "description": "dataset van collectiedata voor de knowledge graph voor  The Other Interface. Het bevat de volgende vijf datasets:\n\nArchives\nBooks\nObjects\nPeople\nThesaurus",
+   "inLanguage": "nl-NL",
+   "dateCreated": "2022-09-30T10:18",
+   "datePublished": "2022-11-04T10:18",
+   "spatialCoverage": "Nederland",
+   "temporalCoverage": "Vanaf de negentiende eeuw tot heden",
+   "distribution": [
+       {
+          "@type": "DataDownload",
+          "contentUrl": "https://collectiedata.hetnieuweinstituut.nl/the-other-interface/knowledge-graph/sparql/knowledge-graph",
+          "encodingFormat": [
+             "application/sparql-query"
+          ],
+          "name": "SPARQL-endpoint",
+          "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "inLanguage": "nl-NL",
+          "datePublished": "2022-09-30T10:26",
+          "dateModified": "2022-12-03T10:26"
+       }
+   ]
+}
