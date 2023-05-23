@@ -1,0 +1,81 @@
+{
+	"@context": "http://schema.org/",
+	"@type": "Dataset",
+	"@id": "https://annefrank.org/id/62f28ce0-99c2-4126-bda8-e4a1b6a40d59",
+	"identifier": "https://annefrank.org/id/62f28ce0-99c2-4126-bda8-e4a1b6a40d59",
+	"version": "1.0",
+	"dateModified": "2023-05-23T11:05",
+	"name": [
+		{"@language":"nl","@value":"Anne Frank Kennisbank"},
+		{"@language":"en","@value":"Anne Frank Knowledge Base"}
+	],
+	"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+	"publisher": {
+		"@type": "Organization",
+		"@id": "https://annefrank.org",
+		"name": [
+			{"@language":"nl","@value":"Anne Frank Stichting"},
+			{"@language":"en","@value":"Anne Frank House"}
+          ],
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": "Marco Streefkerk",
+			"email": "marco@annefrank.nl",
+			"telephone": "+31631016115"
+		}
+	},
+	"description": [
+		{"@language":"nl","@value":"Personen, gebeurtenissen, locaties en onderwerpen gerelateerd aan de persoon Anne Frank, haar familie, de andere onderduikers in het Achterhuis en hun helpers.  Informatie uit doorlopend historisch onderzoek van de Anne Frank Stichting."},
+		{"@language":"en","@value":"Persons, events, locations and subjects related to the person Anne Frank, her family, and other people in hiding in the Secret Annex and their helpers.  Information from current historical research of the Anne Frank House."}
+		],
+	"creator": {
+		"@type": "Organization",
+		"@id": "https://annefrank.org",
+		"name": [
+			{"@language":"nl","@value":"Anne Frank Stichting"},
+			{"@language":"en","@value":"Anne Frank House"}
+          ],
+	"keywords": [
+		{"@language":"nl","@value":"Tweede Wereldoorlog","Vervolging","Holocaust","Onderduik","Dagelijks leven"},
+		{"@language":"en","@value":"Second World War","Persecution","Holocaust","Hiding","Daily life"}
+	],
+	"genre": [
+		{"@language":"nl","@value":"Onderzoek","Onderwijs","Verhalen"},
+		{"@language":"en","@value":"Research","Education","Stories"}
+	],
+	"spatialCoverage": "Europa",
+	"temporalCoverage": "1900-1950",
+	"includedInDataCatalog": "https://annefrank.org/id/0cdb1bcd-fa07-4aa7-93b5-8be91a81ce48",
+	"distribution": [
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://research.annefrank.org/api/",
+			"encodingFormat": [
+				"application/json",
+				"text/html"
+			],
+			"name": "REST API",
+			"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+			"usageInfo": "zie https://annefrank.org/id/62f28ce0-99c2-4126-bda8-e4a1b6a40d59 ",
+			"inLanguage": [
+				"nl",
+				"en"
+			]
+		},
+		{
+			"@type": "DataDownload",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/Anne-Frank-Stichting/Anne-Frank-Kennisbank",
+			"encodingFormat": [
+				"application/rdf+xml"
+			],
+			"name": "Data dump",
+			"license": "https://creativecommons.org/publicdomain/zero/1.0/",
+			"usageInfo": "zie https://annefrank.org/id/62f28ce0-99c2-4126-bda8-e4a1b6a40d59",
+			"inLanguage": [
+				"nl",
+				"en"
+			],
+			"contentSize": "1500000"
+		}
+	]
+}
