@@ -34,7 +34,8 @@
 		"name": [
 			{"@language":"nl","@value":"Anne Frank Stichting"},
 			{"@language":"en","@value":"Anne Frank House"}
-          ],
+          ]
+	},
 	"keywords": [
 		{"@language":"nl","@value":"Tweede Wereldoorlog","Vervolging","Holocaust","Onderduik","Dagelijks leven"},
 		{"@language":"en","@value":"Second World War","Persecution","Holocaust","Hiding","Daily life"}
