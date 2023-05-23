@@ -37,12 +37,24 @@
           ]
 	},
 	"keywords": [
-		{"@language":"nl","@value":"Tweede Wereldoorlog","Vervolging","Holocaust","Onderduik","Dagelijks leven"},
-		{"@language":"en","@value":"Second World War","Persecution","Holocaust","Hiding","Daily life"}
+		{"@language":"nl","@value":"Tweede Wereldoorlog"},
+		{"@language":"nl","@value":"Vervolging"},
+		{"@language":"nl","@value":"Holocaust"},
+		{"@language":"nl","@value":"Onderduik"},
+		{"@language":"nl","@value":"Dagelijks leven"},
+		{"@language":"en","@value":"Second World War"},
+		{"@language":"en","@value":"Persecution"},
+		{"@language":"en","@value":"Holocaust"},
+		{"@language":"en","@value":"Hiding"},
+		{"@language":"en","@value":"Daily life"}
 	],
 	"genre": [
-		{"@language":"nl","@value":"Onderzoek","Onderwijs","Verhalen"},
-		{"@language":"en","@value":"Research","Education","Stories"}
+		{"@language":"nl","@value":"Onderzoek"},
+		{"@language":"nl","@value":"Onderwijs"},
+		{"@language":"nl","@value":"Verhalen"},
+		{"@language":"en","@value":"Research"},
+		{"@language":"en","@value":"Education"},
+		{"@language":"en","@value":"Stories"}
 	],
 	"spatialCoverage": "Europa",
 	"temporalCoverage": "1900-1950",
