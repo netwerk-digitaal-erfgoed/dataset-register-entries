@@ -59,6 +59,7 @@
 	"spatialCoverage": "Europa",
 	"temporalCoverage": "1900-1950",
 	"includedInDataCatalog": "https://annefrank.org/id/0cdb1bcd-fa07-4aa7-93b5-8be91a81ce48",
+	"mainEntityOfPage": "https://data.netwerkdigitaalerfgoed.nl/Anne-Frank-Stichting/Anne-Frank-Kennisbank",
 	"distribution": [
 		{
 			"@type": "DataDownload",
@@ -77,18 +78,41 @@
 		},
 		{
 			"@type": "DataDownload",
-			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/Anne-Frank-Stichting/Anne-Frank-Kennisbank",
-			"encodingFormat": [
-				"application/rdf+xml"
-			],
-			"name": "Data dump",
-			"license": "https://creativecommons.org/publicdomain/zero/1.0/",
-			"usageInfo": "https://annefrank.org/id/62f28ce0-99c2-4126-bda8-e4a1b6a40d59",
-			"inLanguage": [
-				"nl",
-				"en"
-			],
-			"contentSize": "1500000"
+			"encodingFormat": "application/trig",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/Anne-Frank-Stichting/Anne-Frank-Kennisbank/download.trig.gz",
+			"description": "TriG download"
+		},
+		{
+			"@type": "DataDownload",
+			"encodingFormat": "application/n-triples",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/Anne-Frank-Stichting/Anne-Frank-Kennisbank/download.nt.gz",
+			"description": "N-Triples download"
+		},
+		{
+			"@type": "DataDownload",
+			"encodingFormat": "application/n-quads",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/Anne-Frank-Stichting/Anne-Frank-Kennisbank/download.nq.gz",
+			"description": "N-Quads download"
+		},
+		{
+			"@type": "DataDownload",
+			"encodingFormat": "text/turtle",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/Anne-Frank-Stichting/Anne-Frank-Kennisbank/download.ttl.gz",
+			"description": "Turtle download"
+		},
+		{
+			"@type": "DataDownload",
+			"encodingFormat": "application/ld+json",
+			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/Anne-Frank-Stichting/Anne-Frank-Kennisbank/download.jsonld.gz",
+			"description": "JSON-LD download"
+		},
+		{
+			"@id": "https://data.netwerkdigitaalerfgoed.nl/Anne-Frank-Stichting/Anne-Frank-Kennisbank/sparql/default",
+			"@type": "DataDownload",
+			"name": "default",
+			"encodingFormat": "application/sparql-results+json",
+			"contentUrl": "https://api.data.netwerkdigitaalerfgoed.nl/datasets/Anne-Frank-Stichting/Anne-Frank-Kennisbank/services/default/sparql",
+			"description": "SPARQL endpoint"
 		}
 	]
 }
