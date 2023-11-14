@@ -217,13 +217,13 @@
     ],
     "https://schema.org/dateModified": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:04.440432"
       }
     ],
     "https://schema.org/datePublished": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:04.133346"
       }
     ],
@@ -277,13 +277,13 @@
     ],
     "https://schema.org/dateModified": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:05.260286"
       }
     ],
     "https://schema.org/datePublished": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:04.887839"
       }
     ],
@@ -337,13 +337,13 @@
     ],
     "https://schema.org/dateModified": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:06.232946"
       }
     ],
     "https://schema.org/datePublished": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:05.749137"
       }
     ],
@@ -469,13 +469,13 @@
     ],
     "https://schema.org/dateModified": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:07.163237"
       }
     ],
     "https://schema.org/datePublished": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:06.836724"
       }
     ],
@@ -602,13 +602,13 @@
     ],
     "https://schema.org/dateModified": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:10.220189"
       }
     ],
     "https://schema.org/datePublished": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:09.898771"
       }
     ],
@@ -701,13 +701,13 @@
     ],
     "https://schema.org/dateModified": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:09.446963"
       }
     ],
     "https://schema.org/datePublished": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:09.130204"
       }
     ],
@@ -866,13 +866,13 @@
     ],
     "https://schema.org/dateModified": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:08.676688"
       }
     ],
     "https://schema.org/datePublished": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:08.397048"
       }
     ],
@@ -926,13 +926,13 @@
     ],
     "https://schema.org/dateModified": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:07.950354"
       }
     ],
     "https://schema.org/datePublished": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:07.655758"
       }
     ],
@@ -1154,13 +1154,13 @@
     ],
     "https://schema.org/dateModified": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:03.504200"
       }
     ],
     "https://schema.org/datePublished": [
       {
-        "@type": "https://schema.org/dateTime",
+        "@type": "https://schema.org/DateTime",
  "@value": "2021-05-25T09:06:03.169621"
       }
     ],
