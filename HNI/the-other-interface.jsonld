@@ -8,7 +8,14 @@
    "publisher": {
        "@type": "Organization",
        "@id": "https://nieuweinstituut.nl/",
-       "name": "Nieuwe Instituut"
+       "name": "Nieuwe Instituut",
+       "alternateName": "NI",
+       "contactPoint": {
+         "@type": "ContactPoint",
+         "name": "Heritage Department",
+         "email": "info@nieuweinstituut.nl",
+         "telephone": "+31(0)10-4401200"
+      } 
    },
    "description": "dataset van collectiedata voor de knowledge graph voor  The Other Interface. Het bevat de volgende vijf datasets:\n\nArchives\nBooks\nObjects\nPeople\nThesaurus",
    "inLanguage": "nl-NL",
