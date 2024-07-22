@@ -1,9 +1,8 @@
 @base          <http://data.bibliotheken.nl/> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <http://schema.org/> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 # Vooralsnog voor testdoeleinden - wordt op termijn complete set met Alba van de KB
 
@@ -26,8 +25,8 @@
 		
 <id/thes/p075301482>  a          schema:Organization ;
         rdfs:seeAlso             <id/thes/p143859463> ;
-        schema:alternateName     "Royal Library (The Hague)" , "KB | Nationale Bibliotheek (Den Haag)" , "KB (Den Haag)" ;
-        schema:description       "Vanaf 2018 is de roepnaam: KB | Nationale Bibliotheek" , "\"Koninklijke Bibliotheek, Nationale bibliotheek van Nederland" , "Voortz. van: Nationale Bibliotheek, 's-Gravenhage"@nl , "Koninklijke Bibliotheek, National Library of the Netherlands\"" ;
+        schema:alternateName     "KB" ;
+        schema:description       "De KB is de nationale bibliotheek van Nederland."@nl, "The KB is the National Library of the Netherlands."@en
         schema:location          [ a                       schema:PostalAddress ;
                                    schema:addressCountry   "nl" ;
                                    schema:addressLocality  "Den Haag " ;
@@ -43,5 +42,9 @@
                                    schema:mainEntity    <id/thes/p075301482> ;
                                    owl:sameAs           <doc/thes/p075301482>
                                  ] ;
-        schema:name              "Koninklijke Bibliotheek (Den Haag)" ;
-        schema:sameAs            <http://www.wikidata.org/entity/Q1526131> , <http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek> , <http://viaf.org/viaf/157027892> .
+        schema:name              "KB, nationale bibliotheek"@nl, "KB, national library of the Netherlands"@en ;
+        schema:sameAs            <http://www.wikidata.org/entity/Q1526131> , <http://standaarden.overheid.nl/owms/terms/Koninklijke_Bibliotheek> , <http://viaf.org/viaf/157027892>  ;
+        schema:contactPoint     [ a                   schema:ContactPoint ;
+                                   schema:name         "KB Dataservices" ; 
+                                   schema:email        "dataservices@kb.nl"
+                                 ] .
