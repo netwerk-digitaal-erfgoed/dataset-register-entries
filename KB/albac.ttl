@@ -26,7 +26,7 @@
 <id/thes/p075301482>  a          schema:Organization ;
         rdfs:seeAlso             <id/thes/p143859463> ;
         schema:alternateName     "KB" ;
-        schema:description       "De KB is de nationale bibliotheek van Nederland."@nl, "The KB is the National Library of the Netherlands."@en
+        schema:description       "De KB is de nationale bibliotheek van Nederland."@nl, "The KB is the National Library of the Netherlands."@en ;
         schema:location          [ a                       schema:PostalAddress ;
                                    schema:addressCountry   "nl" ;
                                    schema:addressLocality  "Den Haag " ;
