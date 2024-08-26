@@ -13,7 +13,7 @@
         schema:distribution           [ a                      schema:DataDownload ;
                                         schema:contentUrl      <sparql> ;
                                         schema:description     "Entiteiten beschreven door deze dataset zijn op te vragen met SELECT ?s WHERE { ?s schema:mainEntityOfPage [schema:isPartOf <http://data.bibliotheken.nl/id/dataset/albac> ] . }"@nl ;
-                                        schema:encodingFormat  "application/sparql-query" ;
+                                        schema:encodingFormat  "application/sparql-results+xml" ;
                                         schema:name            "SPARQL-endpoint voor albac"@nl ;
                                       ] ;
         schema:identifier             <id/dataset/albac> ;

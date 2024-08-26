@@ -22,7 +22,7 @@
         schema:distribution           [ a                      schema:DataDownload ;
                                         schema:contentUrl      <sparql> ;
                                         schema:description     "Entiteiten beschreven door deze dataset zijn op te vragen met SELECT ?s WHERE { ?s schema:isPartOf \"Centsprenten van de Koninklijke Bibliotheek\"@nl . }"@nl ;
-                                        schema:encodingFormat  "application/sparql-query" ;
+                                        schema:encodingFormat  "application/sparql-results+xml" ;
                                         schema:name            "SPARQL-endpoint voor Centsprenten"@nl ;
                                         schema:workExample     <sparql?default-graph-uri=&query=SELECT+%3Fs+WHERE+%7B+%3Fs+schema%3AisPartOf+%22Centsprenten+van+de+Koninklijke+Bibliotheek%22%40nl+.+%7D&format=text%2Fhtml&timeout=0&debug=on&run=+Run+Query+>
                                       ] ;

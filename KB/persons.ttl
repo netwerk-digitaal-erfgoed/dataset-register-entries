@@ -12,7 +12,7 @@
         schema:distribution           [ a                      schema:DataDownload ;
                                         schema:contentUrl      <sparql> ;
                                         schema:description     "Entiteiten beschreven door deze dataset zijn op te vragen met 'select * where { ?s schema:mainEntityOfPage/schema:isPartOf &lt;http://data.bibliotheken.nl/id/dataset/persons&gt; . }' "@nl ;
-                                        schema:encodingFormat  "application/sparql-query" ;
+                                        schema:encodingFormat  "application/sparql-results+xml" ;
                                         schema:name            "SPARQL endpoint voor personen uit de NTA"@nl ;
                                         schema:workExample     <sparql?default-graph-uri=&query=select+*+where+%7B+%3Fs+schema%3AmainEntityOfPage%2Fschema%3AisPartOf+%3Chttp%3A%2F%2Fdata.bibliotheken.nl%2Fid%2Fdataset%2Fpersons%3E+.+%7D+limit+10>
                                       ] ;
